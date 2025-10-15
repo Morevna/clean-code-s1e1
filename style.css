@@ -5,40 +5,40 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.scheme-block {
+.scheme {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.scheme-block img {
+.scheme img {
     width: 100%;
 }
 
-.scheme-block .more-inf {
+.scheme .scheme__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-    .scheme-block {
+    .scheme {
         text-align: center;
     }
 }
 
-.centered-main-elem {
+.todo-app {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
-.task {
+.todo-app__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.todo-app__task-row {
     display: flex;
 }
 
